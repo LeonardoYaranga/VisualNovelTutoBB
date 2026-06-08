@@ -1,0 +1,5 @@
+join Jenny (neutral) center [animation="Fade In"]
+Jenny: ¡Sabía que elegirías venir conmigo, Cleo!
+Jenny: ¡Vamos a comer esas galletas juntas y a relajarnos!
+[signal arg="on_jenny_final"]
+[end_timeline]

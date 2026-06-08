@@ -1,0 +1,15 @@
+[background arg="res://Assets/GemBg.png" fade="0.0" wait="true"]
+join Cleo (Neutral) left [animation="Bounce In"]
+join Taylor (neutral) right [animation="Fade In"]
+join Margie (Angry) right [animation="Bounce In"]
+join Jenny rightmost
+leave --All--
+join Cleo (Neutral) center
+Cleo (EyesClosed): Ahora debo ir con...
+- Taylor
+	set {Taylor} = 1.0
+- Jenny
+	set {Jenny} = 1.0
+- Margie
+	set {Margie} = 1.0
+[signal arg="on_ending"]
