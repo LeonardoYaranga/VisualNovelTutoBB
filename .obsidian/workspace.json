@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "322abf3d8d5674e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "21bbd29a400ae005",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9b8045d324fba7bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CHALLENGES.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CHALLENGES"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "57e7d50819e73ad7",
+    "type": "split",
+    "children": [
+      {
+        "id": "c5e0d59e7b760671",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0591ea3aa4f2123",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f75dd13ac20f026b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "cf25524b87689089",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fca6336aadae5b1d",
+    "type": "split",
+    "children": [
+      {
+        "id": "10ceccd1be71a1ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca0031dad9ce01d4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CHALLENGES.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for CHALLENGES"
+            }
+          },
+          {
+            "id": "a4326dfa6483b980",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CHALLENGES.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CHALLENGES"
+            }
+          },
+          {
+            "id": "2f2dd563b1728581",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "38beb18fadd08d63",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "dfa7e949331844d3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CHALLENGES.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of CHALLENGES"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "9b8045d324fba7bc",
+  "lastOpenFiles": [
+    "LEARNED.md",
+    "project.godot-gSOda4",
+    "Scenes/Game/Game.tscn-veWM4n",
+    "project.godot-5Zxxvh",
+    "Timelines/MargieEnding.dtl-LUXppP",
+    "Scenes/Game/Game.tscn-jioGfm",
+    "project.godot-4gli8n",
+    "Timelines/JennyEnding.dtl-HQhXvf",
+    "Scenes/Game/Game.tscn-LWQ8EQ",
+    "project.godot-r3xRNG",
+    "Scenes/Game/Game.tscn-s3aVgm"
+  ]
+}

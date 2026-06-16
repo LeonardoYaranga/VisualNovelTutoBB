@@ -5,6 +5,10 @@ extends Node2D
 func _ready() -> void:
 	Dialogic.start("timeline1")
 	Dialogic.signal_event.connect(on_signal_event)
+	Dialogic.timeline_started.connect(on_timeline_started)
+	
+func on_timeline_started() -> void:
+	GameManager.fade()
 	
 func on_signal_event(stringSignal) -> void:
 	if stringSignal == "on_ending":

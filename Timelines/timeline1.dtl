@@ -5,11 +5,17 @@ join Margie (Angry) right [animation="Bounce In"]
 join Jenny rightmost
 leave --All--
 join Cleo (Neutral) center
+join Gumpo right
+update Gumpo [extra_data="set Mouth/Talk"]
+Gumpo: wza
 Cleo (EyesClosed): Ahora debo ir con...
 - Taylor
+	leave --All--
 	set {Taylor} = 1.0
 - Jenny
+	leave --All--
 	set {Jenny} = 1.0
 - Margie
+	leave --All--
 	set {Margie} = 1.0
 [signal arg="on_ending"]

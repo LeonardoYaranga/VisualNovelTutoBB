@@ -1,4 +1,5 @@
-join Taylor (neutral) center [animation="Fade In"]
+join Cleo (Neutral) left
+join Taylor (neutral) right [animation="Fade In"]
 Taylor: Oye Cleo, gracias por venir conmigo.
 Taylor: La verdad es que todavía tengo hambre... ¿vamos por una pizza?
 [signal arg="on_taylor_final"]

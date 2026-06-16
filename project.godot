@@ -18,14 +18,16 @@ config/icon="res://icon.svg"
 [autoload]
 
 Dialogic="*uid://ds2q0uclmolvu"
+GameManager="*uid://gercwhgwhc03"
 
 [dialogic]
 
 directories/dch_directory={
 "Cleo": "res://Assets/Characters/Cleo/Cleo.dch",
+"Gumpo": "res://Assets/Characters/Gumpo/Gumpo.dch",
 "Jenny": "res://Assets/Characters/Jenny/Jenny.dch",
 "Margie": "res://Assets/Characters/Margie/Margie.dch",
-"Taylor": "res://Assets/Characters/Jenny/Taylor.dch"
+"Taylor": "res://Assets/Characters/Taylor/Taylor.dch"
 }
 directories/dtl_directory={
 "JennyEnding": "res://Timelines/JennyEnding.dtl",
@@ -76,6 +78,7 @@ variables={
 "Margie": 0.0,
 "Taylor": 0.0
 }
+glossary/default_case_sensitive=true
 
 [display]
 
