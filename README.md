@@ -15,3 +15,6 @@ https://clement-panchout.itch.io/yet-another-free-music-pack
 https://dillonbecker.itch.io/sdap
 
 https://filmcow.itch.io/filmcow-sfx-4
+
+# Docs dialogic
+https://docs.dialogic.pro/text-effects.html

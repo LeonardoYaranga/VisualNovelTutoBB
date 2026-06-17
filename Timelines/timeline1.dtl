@@ -9,9 +9,9 @@ join Cleo (Neutral) center
 join Gumpo right
 [voice path="res://Assets/Super Dialogue Audio Pack v1/Step 2 - Audio Files/6 - Miscellaneous/Male/Ian Lampert/miscellaneous_3_ian.wav" volume="0.0" bus="SFX"]
 update Gumpo [extra_data="set Mouth/Talk"]
-Gumpo: wza
+Gumpo: wza [input] como estan el dia de hoy chavales, el dia de hoy les vengo a mostrar esto
 update Gumpo [extra_data="set Mouth/Close"]
-Cleo (EyesClosed): Ahora debo ir con...
+Cleo (EyesClosed): Ahora debo [n] ir con...
 - Taylor
 	leave --All--
 	set {Taylor} = 1.0

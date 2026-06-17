@@ -36,3 +36,10 @@ O podemos crear mas canales para que ambas musicas suenen a la vez.
 ![[AudioConfigVisualNovel.png]]
 
 Los tipo Voice en Dialogic se pone despues de el evento de texto siguiente.
+
+# Sonidos de tipeo
+Estos se pueden modificar para cada personaje y asignarse para cada Portrait, puede haber varios typing sounds, con la estrellita seleccionas el default de lo tipyng sounds en su seccion.
+![[PortraitTypingSoundsManage.png]]
+# Efectos en los Text
+Se le puede dar mas dramatismo con pausas entre las palabras, en una misma linea como el uso de [input] o para que apareza el texto en otro en un nuevo cuadro con [n].
+Mas info https://docs.dialogic.pro/text-effects.html
