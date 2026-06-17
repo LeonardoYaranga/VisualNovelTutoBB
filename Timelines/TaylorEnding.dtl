@@ -1,3 +1,4 @@
+audio music "res://Assets/16-Bit RGP Music Ice Lands _Clement Panchout.wav"
 join Cleo (Neutral) left
 join Taylor (neutral) right [animation="Fade In"]
 Taylor: Oye Cleo, gracias por venir conmigo.

@@ -1,0 +1,71 @@
+[gd_scene format=3 uid="uid://c3d684vyj1hkt"]
+
+[ext_resource type="Script" uid="uid://cp16s3eesomy1" path="res://Scenes/StartScreen/StartScreen.gd" id="1_eip0l"]
+[ext_resource type="Texture2D" uid="uid://byrpdsokate0o" path="res://Assets/GemBg.png" id="1_l62bm"]
+[ext_resource type="StyleBox" uid="uid://c4n14cxxhdtfj" path="res://Resources/dialogue_box_style_box_texture.tres" id="2_eip0l"]
+
+[node name="StartScreen" type="Control" unique_id=1028765712]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_eip0l")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1388193064]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_l62bm")
+expand_mode = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=784867289]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 80
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer" unique_id=1133391676]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.705882)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_y = 6
+theme_override_constants/outline_size = 18
+theme_override_constants/shadow_outline_size = 12
+theme_override_font_sizes/font_size = 62
+text = "El proyecto para aprender a como hacer visual novels god!"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="StartBtn" type="Button" parent="VBoxContainer" unique_id=2027416662]
+custom_minimum_size = Vector2(300, 90)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_font_sizes/font_size = 46
+theme_override_styles/normal = ExtResource("2_eip0l")
+theme_override_styles/hover = ExtResource("2_eip0l")
+text = "Start!"
+
+[node name="MusicBtn" type="Button" parent="VBoxContainer" unique_id=103454979]
+custom_minimum_size = Vector2(300, 90)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_font_sizes/font_size = 46
+theme_override_styles/normal = ExtResource("2_eip0l")
+theme_override_styles/hover = ExtResource("2_eip0l")
+text = "Music on"
+
+[connection signal="button_down" from="VBoxContainer/StartBtn" to="." method="_on_button_button_down"]
+[connection signal="button_down" from="VBoxContainer/MusicBtn" to="." method="_on_music_button_down"]

@@ -1,3 +1,4 @@
+audio music "res://Assets/16-Bit RGP Music Ice Lands _Clement Panchout.wav"
 join Cleo (Neutral) left
 join Jenny (neutral) right [animation="Fade In"]
 Jenny: ¡Sabía que elegirías venir conmigo, Cleo!

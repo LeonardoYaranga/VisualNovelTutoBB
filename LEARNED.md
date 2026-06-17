@@ -26,3 +26,13 @@ Digamos que la funcion conectada podrai tener esto:
 func on_timeline_started() -> void:
 	GameManager.fade()
 Entc el GameManager cargara y la colocara en el arbol a una escena llamada Fade que es un canvas Layer siempre visible Layer2 que Ignora los clicks y tiene una animacion de "fade" osea que sea transaparente, oscuro y transaperente su ColorRect
+
+# Insercion de audios y voces
+Ademas se puede modificar los buses de audio que se utilizan para los canales de audio en dialogic.
+Se puede crear en la parte inferior de godot mas buses de audio, ademas del master como Music, SFX, luego en dialogic a los channels que hay se les selecciona q salgan por su respectivo bus.
+Asi en distintas momentos si colocamos musica en el mismo canal la sobreescribimos.
+O podemos crear mas canales para que ambas musicas suenen a la vez.
+
+![[AudioConfigVisualNovel.png]]
+
+Los tipo Voice en Dialogic se pone despues de el evento de texto siguiente.

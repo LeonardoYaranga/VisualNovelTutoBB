@@ -1,4 +1,5 @@
 [background arg="res://Assets/GemBg.png" fade="0.0" wait="true"]
+audio music "res://Assets/Clement Panchout _ Revenge.wav"
 join Cleo (Neutral) left [animation="Bounce In"]
 join Taylor (neutral) right [animation="Fade In"]
 join Margie (Angry) right [animation="Bounce In"]
@@ -6,13 +7,16 @@ join Jenny rightmost
 leave --All--
 join Cleo (Neutral) center
 join Gumpo right
+[voice path="res://Assets/Super Dialogue Audio Pack v1/Step 2 - Audio Files/6 - Miscellaneous/Male/Ian Lampert/miscellaneous_3_ian.wav" volume="0.0" bus="SFX"]
 update Gumpo [extra_data="set Mouth/Talk"]
 Gumpo: wza
+update Gumpo [extra_data="set Mouth/Close"]
 Cleo (EyesClosed): Ahora debo ir con...
 - Taylor
 	leave --All--
 	set {Taylor} = 1.0
 - Jenny
+	[clear time="1.0" text="false" portraits="false" background="false" positions="false" style="false"]
 	leave --All--
 	set {Jenny} = 1.0
 - Margie

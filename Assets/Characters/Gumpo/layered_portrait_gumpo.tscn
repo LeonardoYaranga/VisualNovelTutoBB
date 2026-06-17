@@ -74,6 +74,7 @@ animations = [{
 
 [node name="LayeredPortrait" type="CanvasGroup" unique_id=327523253]
 script = ExtResource("1_uubi5")
+fix_offset = null
 
 [node name="Layer1" type="Sprite2D" parent="." unique_id=1721289877]
 texture = ExtResource("2_o1h8s")
@@ -104,4 +105,8 @@ texture = ExtResource("5_bgpym")
 texture = ExtResource("6_3c6ex")
 
 [node name="Talk" type="AnimatedSprite2D" parent="Mouth" unique_id=1787131499]
+visible = false
 sprite_frames = SubResource("SpriteFrames_4an8u")
+autoplay = "default"
+frame = 1
+frame_progress = 0.5217059

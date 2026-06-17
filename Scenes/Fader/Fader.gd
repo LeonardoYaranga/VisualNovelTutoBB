@@ -5,3 +5,6 @@ extends CanvasLayer
 
 func fade() -> void:
 	animation_player.play("fade")
+
+func change_scene() -> void:
+	GameManager.change_to_next_scene()

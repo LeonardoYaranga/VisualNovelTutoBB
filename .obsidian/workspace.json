@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CHALLENGES.md",
+                "file": "LEARNED.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHALLENGES"
+              "title": "LEARNED"
             }
           }
         ]
@@ -185,16 +185,19 @@
   },
   "active": "9b8045d324fba7bc",
   "lastOpenFiles": [
-    "LEARNED.md",
-    "project.godot-gSOda4",
-    "Scenes/Game/Game.tscn-veWM4n",
-    "project.godot-5Zxxvh",
-    "Timelines/MargieEnding.dtl-LUXppP",
-    "Scenes/Game/Game.tscn-jioGfm",
-    "project.godot-4gli8n",
-    "Timelines/JennyEnding.dtl-HQhXvf",
-    "Scenes/Game/Game.tscn-LWQ8EQ",
-    "project.godot-r3xRNG",
-    "Scenes/Game/Game.tscn-s3aVgm"
+    "project.godot-Dcfpwz",
+    "project.godot-BSMabN",
+    "Assets/Characters/Gumpo/layered_portrait_gumpo.tscn-2zfu3Q",
+    "project.godot-TQkADF",
+    "project.godot-8usWTA",
+    "project.godot-PNMq4j",
+    "project.godot-bcSciM",
+    "project.godot-zOZqLs",
+    "Assets/Characters/Gumpo/layered_portrait_gumpo.tscn-kUkkBg",
+    "addons/dialogic/Modules/LayeredPortrait/custom_layered_portrait.gd-iYLU8e",
+    "Assets/Characters/Gumpo/layered_portrait_gumpo.tscn-leKp62",
+    "Images/AudioConfigVisualNovel.png",
+    "CHALLENGES.md",
+    "LEARNED.md"
   ]
 }

@@ -1,8 +1,10 @@
 extends Node
 
 const FADER = preload("uid://b4l1mk7xbirq5")
+const GAME = preload("uid://li5k10ewb3ne")
 
-var fader : Fader = null
+var fader: Fader = null
+var next_scene: PackedScene = null
 
 func _ready() -> void:
 	fader = FADER.instantiate()
@@ -10,4 +12,15 @@ func _ready() -> void:
 	
 func fade() -> void:
 	fader.fade()
-	
+
+func change_to_next_scene() -> void:
+	if next_scene:
+		get_tree().change_scene_to_packed(next_scene)
+		next_scene = null
+		
+func start_transition(to_scene: PackedScene) -> void:
+	next_scene = to_scene
+	fader.fade()
+
+func change_to_game_scene() -> void:
+	start_transition(GAME)
