@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "21bbd29a400ae005",
+        "id": "a6fe8f30d627fe41",
         "type": "tabs",
         "children": [
           {
-            "id": "9b8045d324fba7bc",
+            "id": "c029c84bb88fadb6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LEARNED.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "LEARNED"
+              "title": "New tab"
             }
           }
         ]
@@ -183,21 +179,31 @@
       "bases:Create new base": false
     }
   },
-  "active": "9b8045d324fba7bc",
+  "active": "b0591ea3aa4f2123",
   "lastOpenFiles": [
-    "Images/PortraitTypingSoundsManage.png",
-    "project.godot-P9j9uj",
-    "project.godot-Wuc7b4",
-    "project.godot-iafWCo",
-    "project.godot-6IImY1",
-    "project.godot-ACIHAb",
-    "Assets/Characters/Gumpo/layered_portrait_gumpo.tscn-eIkFNy",
-    "project.godot-UD1Ll0",
-    "project.godot-IzvUi4",
-    "project.godot-G0gJIt",
-    "Assets/Characters/Gumpo/layered_portrait_gumpo.tscn-4LB6TO",
-    "Images/AudioConfigVisualNovel.png",
+    "README.md",
+    "Untitled.md",
     "CHALLENGES.md",
-    "LEARNED.md"
+    "LEARNED.md",
+    "project.godot-Rl7N6B",
+    "project.godot-SafnaY",
+    "project.godot-OEWynU",
+    "project.godot-nJF5K4",
+    "Scenes/Gallery/Gallery.tscn-HXsqDf",
+    "project.godot-MYCzRS",
+    "project.godot-08bIes",
+    "project.godot-hhizGW",
+    "project.godot-eYxsSt",
+    "project.godot-NdaiHj",
+    "Images/ExpandedPhotoGalleryMouseHover.png",
+    "Images/FullScreenPhotoGallery.png",
+    "Images/Pasted image 20260701142111.png",
+    "Images/GalleryButtonSelector.png",
+    "Images/Pasted image 20260701141748.png",
+    "Images/PortraitTypingSoundsManage.png",
+    "Images/AudioConfigVisualNovel.png",
+    "Pasted image 20260701141810.png",
+    "Pasted image 20260701141734.png",
+    "Pasted image 20260701141702.png"
   ]
 }

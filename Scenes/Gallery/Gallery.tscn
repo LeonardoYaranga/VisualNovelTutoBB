@@ -1,0 +1,78 @@
+[gd_scene format=3 uid="uid://d4iei1snuy68m"]
+
+[ext_resource type="Script" uid="uid://dad8vp0hmeeou" path="res://Scenes/Gallery/Gallery.gd" id="1_bgw5y"]
+[ext_resource type="Texture2D" uid="uid://sqb340hx07ab" path="res://Assets/blank.png" id="2_1wnsp"]
+
+[node name="Gallery" type="Control" unique_id=473609292]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_bgw5y")
+
+[node name="Panel" type="Panel" parent="." unique_id=1210988010]
+custom_minimum_size = Vector2(1000, 550)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -250.0
+offset_right = 250.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=534403617]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 125.0
+offset_top = 83.0
+offset_right = -111.0
+offset_bottom = -85.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer" unique_id=1301279951]
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_constants/separation = 9
+alignment = 1
+
+[node name="BannerImage" type="TextureRect" parent="VBoxContainer/HBoxContainer" unique_id=230605807]
+custom_minimum_size = Vector2(100, 72)
+clip_contents = true
+layout_mode = 2
+size_flags_horizontal = 3
+texture = ExtResource("2_1wnsp")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="OptionButton" type="OptionButton" parent="VBoxContainer/HBoxContainer/BannerImage" unique_id=1775627158]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -108.0
+offset_top = -10.0
+offset_right = 108.0
+offset_bottom = 10.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer" unique_id=1577418724]
+custom_minimum_size = Vector2(800, 400)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="GridContainer" type="GridContainer" parent="VBoxContainer/ScrollContainer" unique_id=729208147]
+layout_mode = 2
+columns = 4

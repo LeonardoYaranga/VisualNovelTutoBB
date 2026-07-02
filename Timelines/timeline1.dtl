@@ -10,6 +10,7 @@ join Gumpo right
 [voice path="res://Assets/Super Dialogue Audio Pack v1/Step 2 - Audio Files/6 - Miscellaneous/Male/Ian Lampert/miscellaneous_3_ian.wav" volume="0.0" bus="SFX"]
 update Gumpo [extra_data="set Mouth/Talk"]
 Gumpo: wza [input] como estan el dia de hoy chavales, el dia de hoy les vengo a mostrar esto
+set {IsMeet.Gumpo} = true
 update Gumpo [extra_data="set Mouth/Close"]
 Cleo (EyesClosed): Ahora debo [n] ir con...
 - Taylor
@@ -22,4 +23,5 @@ Cleo (EyesClosed): Ahora debo [n] ir con...
 - Margie
 	leave --All--
 	set {Margie} = 1.0
+set {IsMeet.Cleo} = true
 [signal arg="on_ending"]

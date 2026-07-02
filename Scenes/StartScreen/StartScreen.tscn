@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://cp16s3eesomy1" path="res://Scenes/StartScreen/StartScreen.gd" id="1_eip0l"]
 [ext_resource type="Texture2D" uid="uid://byrpdsokate0o" path="res://Assets/GemBg.png" id="1_l62bm"]
 [ext_resource type="StyleBox" uid="uid://c4n14cxxhdtfj" path="res://Resources/dialogue_box_style_box_texture.tres" id="2_eip0l"]
+[ext_resource type="PackedScene" uid="uid://d4iei1snuy68m" path="res://Scenes/Gallery/Gallery.tscn" id="4_nvnli"]
 
 [node name="StartScreen" type="Control" unique_id=1028765712]
 layout_mode = 3
@@ -30,7 +31,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_constants/separation = 80
+theme_override_constants/separation = 28
 alignment = 1
 
 [node name="Label" type="Label" parent="VBoxContainer" unique_id=1133391676]
@@ -57,15 +58,32 @@ theme_override_styles/normal = ExtResource("2_eip0l")
 theme_override_styles/hover = ExtResource("2_eip0l")
 text = "Start!"
 
+[node name="GalleryBtn" type="Button" parent="VBoxContainer" unique_id=1454312483]
+custom_minimum_size = Vector2(300, 90)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = ExtResource("2_eip0l")
+theme_override_styles/hover = ExtResource("2_eip0l")
+text = "Gallery
+"
+
 [node name="MusicBtn" type="Button" parent="VBoxContainer" unique_id=103454979]
 custom_minimum_size = Vector2(300, 90)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-theme_override_font_sizes/font_size = 46
+theme_override_font_sizes/font_size = 30
 theme_override_styles/normal = ExtResource("2_eip0l")
 theme_override_styles/hover = ExtResource("2_eip0l")
 text = "Music on"
 
+[node name="Gallery" parent="." unique_id=473609292 instance=ExtResource("4_nvnli")]
+visible = false
+layout_mode = 1
+
+[connection signal="gui_input" from="VBoxContainer" to="." method="_on_v_box_container_gui_input"]
 [connection signal="button_down" from="VBoxContainer/StartBtn" to="." method="_on_button_button_down"]
+[connection signal="button_down" from="VBoxContainer/GalleryBtn" to="." method="_on_gallery_btn_button_down"]
 [connection signal="button_down" from="VBoxContainer/MusicBtn" to="." method="_on_music_button_down"]

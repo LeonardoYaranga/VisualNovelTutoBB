@@ -3,5 +3,6 @@ join Cleo (Neutral) left
 join Taylor (neutral) right [animation="Fade In"]
 Taylor: Oye Cleo, gracias por venir conmigo.
 Taylor: La verdad es que todavía tengo hambre... ¿vamos por una pizza?
+set {IsMeet.Taylor} = true
 [signal arg="on_taylor_final"]
 [end_timeline]

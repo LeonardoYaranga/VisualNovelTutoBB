@@ -2,4 +2,5 @@ join Cleo (Neutral) left
 join Margie (Neutral) right [animation="Fade In"]
 Margie: ¿Viniste a ayudarme a recuperar mi sándwich?
 Margie (MouthOpen): ¡Genial! ¡No dejaremos que Taylor se salga con la suya!
+set {IsMeet.Margie} = true
 [end_timeline]

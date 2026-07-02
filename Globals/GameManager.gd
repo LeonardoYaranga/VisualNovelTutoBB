@@ -2,6 +2,7 @@ extends Node
 
 const FADER = preload("uid://b4l1mk7xbirq5")
 const GAME = preload("uid://li5k10ewb3ne")
+const START_SCREEN = preload("uid://c3d684vyj1hkt")
 
 var fader: Fader = null
 var next_scene: PackedScene = null
@@ -24,3 +25,6 @@ func start_transition(to_scene: PackedScene) -> void:
 
 func change_to_game_scene() -> void:
 	start_transition(GAME)
+	
+func change_to_start_screen() -> void:
+	start_transition(START_SCREEN)
